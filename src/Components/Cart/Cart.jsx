@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = () => {
     return (
         <div className="cart-container ms-3">
-            <p>Spent Time On Read :</p>
+            <p className='font-semibold text-blue-600'>Spent Time On Read :</p>
         </div>
     );
 };
