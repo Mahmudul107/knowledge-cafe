@@ -1,39 +1,39 @@
 [
     {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
-        "author-name": "Mahmudul Islam",
-        "blog-title": "How Much Should I Spend on Programming?",
-        "author-img": "https://images.unsplash.com/photo-1597524734346-1e97c3b946c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGF1dGhvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "published-date": "2023-3-31",
-        "read-time": 10,
-        "blog-img": "https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        "author_name": "Mahmudul Islam",
+        "blog_title": "How Much Should I Spend on Programming?",
+        "author_img": "https://images.unsplash.com/photo-1597524734346-1e97c3b946c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fGF1dGhvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "published_date": "2023-3-31",
+        "read_time": 10,
+        "blog_img": "https://images.unsplash.com/photo-1564865878688-9a244444042a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         
     },
     {
         "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
-        "author-name": "Jhumur Islam",
-        "blog-title": "Programming: [Number] Problems You Could Face",
-        "author-img": "https://plus.unsplash.com/premium_photo-1669532642155-3c0372a4527c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXV0aG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "published-date": "2023-03-10",
-        "read-time": 14,
-        "img": "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
+        "author_name": "Jhumur Islam",
+        "blog_title": "Programming: [Number] Problems You Could Face",
+        "author_img": "https://plus.unsplash.com/premium_photo-1669532642155-3c0372a4527c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXV0aG9yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "published_date": "2023-03-10",
+        "read_time": 14,
+        "blog_img": "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80"
     },
     {
         "id": "307f166f-1d04-4573-bc37-2f461ea9d4f7",
-        "author-name": "Mahmuda Pervin",
-        "blog-title": "What Makes Programming and [Competitor] Different?",
-        "author-img": "https://images.unsplash.com/photo-1600188768149-f27db3bc6ef9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGF1dGhvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "published-date": "2023-3-2",
-        "read-time": 10,
-        "img": "https://images.unsplash.com/photo-1552308995-2baac1ad5490?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        "author_name": "Mahmuda Pervin",
+        "blog_title": "What Makes Programming and [Competitor] Different?",
+        "author_img": "https://images.unsplash.com/photo-1600188768149-f27db3bc6ef9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGF1dGhvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "published_date": "2023-3-2",
+        "read_time": 10,
+        "blog_img": "https://images.unsplash.com/photo-1552308995-2baac1ad5490?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
         "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
-        "author-name": "Charles Johnson",
-        "blog-title": "The X Best Alternatives to Programming",
-        "author-img": "https://images.unsplash.com/photo-1611199340099-91a595a86812?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGF1dGhvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
-        "published-date": "2023-2-28",
-        "read-time": 15,
-        "img": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        "author_name": "Charles Johnson",
+        "blog_title": "The X Best Alternatives to Programming...",
+        "author_img": "https://images.unsplash.com/photo-1611199340099-91a595a86812?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGF1dGhvcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "published_date": "2023-2-28",
+        "read_time": 15,
+        "blog_img": "https://images.unsplash.com/photo-1504384764586-bb4cdc1707b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     }
 ]

@@ -1,0 +1,37 @@
+.blogs {
+  margin-left: 100px;
+  width: 845px;
+  height: 821px;
+  border: 1px solid rgba(17, 17, 17, 0.1);
+  border-radius: 10px;
+}
+.blogs img{
+    border-radius: 10px;
+}
+.author-name{
+    margin-top: -60px;
+    margin-right: 620px;
+}
+.read-time{
+    margin-left: 718px;
+    margin-top: -60px;
+}
+.read-time button:hover{
+    color: coral;
+}
+.blog-title{
+    margin-top: 50px;
+    margin-right: 270px;
+    
+}
+.mark-as-read{
+    color: blue;
+    margin-right: 718px;
+
+}
+.read-time:hover{
+    text-decoration: underline;
+}
+.mark-as-read:hover{
+    text-decoration: underline;
+}

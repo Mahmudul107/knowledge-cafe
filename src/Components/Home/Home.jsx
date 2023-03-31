@@ -1,25 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import './Home.css'
+import React, { useEffect, useState } from "react";
+import Blog from "../Blog/Blog";
+import "./Home.css";
+import Cart from "../Cart/Cart";
 
 const Home = () => {
-    const [blogs, setBlogs] = useState([]);
+  const [blogs, setBlogs] = useState([]);
 
-    useEffect( () =>{
-        fetch('data.json')
-        .then( res => res.json())
-        .then(data => setBlogs(data))
-    }, [])
+  useEffect(() => {
+    fetch("data.json")
+      .then((res) => res.json())
+      .then((data) => setBlogs(data));
+  }, []);
 
-    return (
-        <div className='gird grid-cols-1'>
-            <div>
-                <p>Blogs :{blogs.length}</p>
-            </div>
-            <div>
-                <p>Spent Time On Read :</p>
-            </div>
-        </div>
-    );
+  return (
+    <div className="blogs-container justify-center me-20">
+      <div className="single-blog">
+        {blogs.map((blog) => (
+          <Blog 
+            key={blog.id}
+            blog={blog}
+           ></Blog>
+        ))}
+      </div>
+      <div>
+        <Cart></Cart>
+      </div>
+    </div>
+  );
 };
 
 export default Home;

@@ -5,7 +5,6 @@ import Horizental from "./Components/Horizental/Horizental";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
