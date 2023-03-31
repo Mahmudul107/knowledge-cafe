@@ -1,7 +1,8 @@
 import { useState } from "react";
 import "./App.css";
-import Horizental from "./Horizental/Horizental";
-import Navbar from "./Navbar/Navbar";
+import Home from "./Components/Home/Home";
+import Horizental from "./Components/Horizental/Horizental";
+import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <Navbar></Navbar>
       <Horizental></Horizental>
+      <Home></Home>
     </div>
   );
 }
