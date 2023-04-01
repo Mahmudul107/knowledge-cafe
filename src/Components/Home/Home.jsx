@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import Blog from "../Blog/Blog";
 import "./Home.css";
 import Cart from "../Cart/Cart";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
 
 const Home = (handleReadTime) => {
   const [blogs, setBlogs] = useState([]);
@@ -16,11 +19,21 @@ const Home = (handleReadTime) => {
   }, []);
 
   const handleBookmark = (blog) => {
-    const newBookmark = [...bookmark, blog];
-    setBookmark(newBookmark);
-    setBookmarkedTitles([...bookmarkedTitles, blog.blog_title]);
+    if (bookmark.some((item) => item.id === blog.id)) {
+      toast.info("You Have Already Bookmarked This Blog");
+      const newBookmark = [...bookmark, blog];
+      setBookmark(newBookmark);
+      setBookmarkedTitles([...bookmarkedTitles, blog.blog_title]);
+    }
+    else {
+      const newBookmark = [...bookmark, blog];
+      setBookmark(newBookmark);
+      setBookmarkedTitles([...bookmarkedTitles, blog.blog_title]);
+    }
   };
+  
 
+  
   handleReadTime = (time) => {
     const previousReadTime = JSON.parse(localStorage.getItem("readTime"));
     if (previousReadTime) {
@@ -34,7 +47,7 @@ const Home = (handleReadTime) => {
   };
 
   return (
-    <div className="blogs-container justify-center me-20">
+    <div className="blogs-container justify-center me-20 flex flex-col lg:flex-row">
       <div className="single-blog">
         {blogs.map((blog) => (
           <Blog
