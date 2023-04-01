@@ -10,6 +10,10 @@ const Blog = (props) => {
     read_time,
     blog_img,
   } = props.blog;
+
+  const handleBookmark = props.handleBookmark;
+  const handleReadTime = props.handleReadTime;
+
   return (
     <div className="blogs mb-10">
       <img className="mx-auto border" src={blog_img} alt="" />
@@ -22,7 +26,7 @@ const Blog = (props) => {
       </div>
       <div className="read-time flex gap-1">
         <p>{read_time} min read</p>
-        <button>
+        <button onClick={() => handleBookmark(props.blog)}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -43,7 +47,7 @@ const Blog = (props) => {
         <h1 className="font-bold text-2xl text-left mx-5">{blog_title}</h1>
       </div>
       <div className="mark-as-read mt-6">
-        <a href="mark as read">Mark as read</a>
+        <button onClick={() =>handleReadTime(read_time)} href="mark as read">Mark as read</button>
       </div>
     </div>
   );
