@@ -29,9 +29,10 @@
     margin-right: 718px;
 
 }
-.read-time:hover{
+.read-time p:hover{
     text-decoration: underline;
+    color: red;
 }
-.mark-as-read:hover{
+.mark-as-read button:hover{
     text-decoration: underline;
 }

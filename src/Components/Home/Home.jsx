@@ -47,7 +47,7 @@ const Home = (handleReadTime) => {
   };
 
   return (
-    <div className="blogs-container justify-center me-20 flex flex-col lg:flex-row">
+    <div className="blogs-container justify-center me-20 flex flex-col lg:flex-row  lg:grid-cols-3">
       <div className="single-blog">
         {blogs.map((blog) => (
           <Blog

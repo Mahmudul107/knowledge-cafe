@@ -5,6 +5,7 @@ import Horizental from "./Components/Horizental/Horizental";
 import Navbar from "./Components/Navbar/Navbar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import QnA from "./Components/QnA/QnA";
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Horizental></Horizental>
       <Home></Home>
       <ToastContainer></ToastContainer>
+      <QnA></QnA>
     </div>
   );
 }

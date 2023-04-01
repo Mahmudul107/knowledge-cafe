@@ -15,9 +15,9 @@ const Blog = (props) => {
   const handleReadTime = props.handleReadTime;
 
   return (
-    <div className="blogs mb-10">
+    <div className="blogs mb-10 md:grid-cols-3">
       <img className="mx-auto border" src={blog_img} alt="" />
-      <div className="ps-5">
+      <div className="ps-5 ">
         <img className="w-10 rounded-full mt-8" src={author_img} alt="" />
         <div className="author-name mb-6 ms-3">
           <h3 className="font-bold">{author_name}</h3>
