@@ -13,13 +13,10 @@ const Cart = ({readTime, bookmark}) => {
 
   return (
     <div>
-      <div className="spent-time ms-3">
+      <div className="spent-time ms-3 mb-6">
         <p className="font-semibold text-blue-800 mt-5 text-2xl">
           Spent Time On Read : {read} min.
         </p>
-      </div>
-      <div className="bookmarked-item mt-8 ms-6">
-        <p className="text-2xl font-bold">Bookmarked Blog : {}</p>
       </div>
     </div>
   );

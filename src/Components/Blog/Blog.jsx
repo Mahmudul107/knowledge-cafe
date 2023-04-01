@@ -47,7 +47,7 @@ const Blog = (props) => {
         <h1 className="font-bold text-2xl text-left mx-5">{blog_title}</h1>
       </div>
       <div className="mark-as-read mt-6">
-        <button onClick={() =>handleReadTime(read_time)} href="mark as read">Mark as read</button>
+        <button onClick={() =>handleReadTime(read_time, blog_title)} href="mark as read">Mark as read</button>
       </div>
     </div>
   );
